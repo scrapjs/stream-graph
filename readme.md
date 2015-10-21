@@ -1,4 +1,4 @@
-Stream-graph is [evented-graph](https://npmjs.org/package/evented-graph), where nodes are streams and edges are pipes. Main purpose of _stream-graph_ is to manage connection scheme of streams: parse, save, load, generate etc.
+_StreamGraph_ is [_EventedGraph_](https://npmjs.org/package/evented-graph), where nodes are streams and edges are pipes. Main purpose of _stream-graph_ is to manage connection scheme of streams: parse, save, load, generate etc.
 
 
 ## Usage
