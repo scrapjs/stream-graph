@@ -1,0 +1,37 @@
+{
+  "name": "stream-graph",
+  "version": "1.0.0",
+  "description": "Graph where nodes are streams and connections are pipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": ["index.js"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfcreative/stream-graph"
+  },
+  "keywords": [
+    "graph",
+    "stream"
+  ],
+  "author": "Deema Yvanow <dfcreative@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfcreative/stream-graph/issues"
+  },
+  "homepage": "https://github.com/dfcreative/stream-graph",
+  "dependencies": {
+    "evented-graph": "^1.0.0",
+    "inherits": "^2.0.1",
+    "is-stream": "^1.0.1",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "babel": "^5.8.23",
+    "concat-stream": "^1.5.1",
+    "into-stream": "^2.0.0",
+    "through2": "^2.0.0"
+  }
+}
